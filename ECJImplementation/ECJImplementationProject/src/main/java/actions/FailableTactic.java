@@ -1,4 +1,4 @@
-package main.java.actions;
+package actions;
 
 import ec.gp.GPNode;
 

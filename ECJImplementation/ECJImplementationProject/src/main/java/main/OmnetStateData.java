@@ -1,4 +1,4 @@
-package main.java.main;
+package main;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -8,14 +8,14 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 import ec.gp.GPData;
-import main.java.actions.operators.IfThenElseOperator;
-import main.java.omnet.components.OmnetComponent;
-import main.java.omnet.tactics.DecreaseDimmerLevel;
-import main.java.omnet.tactics.DecreaseTrafficLevel;
-import main.java.omnet.tactics.IncreaseDimmerLevel;
-import main.java.omnet.tactics.IncreaseTrafficLevel;
-import main.java.omnet.tactics.ShutdownServer;
-import main.java.omnet.tactics.StartNewServer;
+import actions.operators.IfThenElseOperator;
+import omnet.components.OmnetComponent;
+import omnet.tactics.DecreaseDimmerLevel;
+import omnet.tactics.DecreaseTrafficLevel;
+import omnet.tactics.IncreaseDimmerLevel;
+import omnet.tactics.IncreaseTrafficLevel;
+import omnet.tactics.ShutdownServer;
+import omnet.tactics.StartNewServer;
 
 
 public class OmnetStateData extends GPData {
