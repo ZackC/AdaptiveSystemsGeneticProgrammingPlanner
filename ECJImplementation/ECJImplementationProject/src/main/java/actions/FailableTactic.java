@@ -12,6 +12,10 @@ public abstract class FailableTactic extends GPNode {
 		return actionSucceeded;
 	}
 	
+	public void setActionSucceeded(boolean actionSucceeded){
+		this.actionSucceeded = actionSucceeded;
+	}
+	
 	public double getFailureWeight(){
 		return failureWeight;
 	}

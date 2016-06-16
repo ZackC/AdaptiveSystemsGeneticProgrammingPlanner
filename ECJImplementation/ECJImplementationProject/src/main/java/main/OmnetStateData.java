@@ -158,6 +158,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			s.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
@@ -185,6 +186,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			s.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
@@ -212,6 +214,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			d.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
@@ -239,6 +242,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			d.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
@@ -266,6 +270,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			t.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
@@ -293,6 +298,7 @@ public class OmnetStateData extends GPData {
 		}
 		if(hadInvalidAction){
 			invalidActionCount++;
+			t.setActionSucceeded(false);
 		}
 		if(paths.size()>MAX_PATH_COPIES){
 			planTooLarge=true;
