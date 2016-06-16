@@ -1,4 +1,4 @@
-package main.java.main;
+package main;
 
 import ec.EvolutionState;
 import ec.gp.GPFunctionSet;
@@ -12,9 +12,9 @@ import ec.gp.GPTree;
 import ec.gp.GPType;
 import ec.gp.koza.GPKozaDefaults;
 import ec.util.Parameter;
-import main.java.actions.operators.SequenceOperator;
-import main.java.omnet.tactics.StartNewServerB;
-import main.java.omnet.tactics.StartNewServerC;
+import actions.operators.SequenceOperator;
+import omnet.tactics.StartNewServerB;
+import omnet.tactics.StartNewServerC;
 
 /*
  * This class now compiles - test that it works at run time tomorrow

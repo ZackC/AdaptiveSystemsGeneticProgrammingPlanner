@@ -1,4 +1,4 @@
-package main.java.omnet.tactics;
+package omnet.tactics;
 
 import ec.EvolutionState;
 import ec.Problem;
@@ -6,8 +6,8 @@ import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.util.Parameter;
-import main.java.actions.FailableTactic;
-import main.java.main.OmnetStateData;
+import actions.FailableTactic;
+import main.OmnetStateData;
 
 public abstract class ServerTactic extends FailableTactic {
 	
