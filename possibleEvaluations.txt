@@ -65,7 +65,10 @@ Sepecific Evaluations:
   optimization function, or possibly different tactics, does that means the
   parameters need to change significantly? Probably only need to choose a few
   distinct situations initially and then decide if we should do more later.
--(add some other experiments about starting with similar plans and adding
-tactics later)
-
-
+- create some plans and then either add or remove some tactics; for example add
+  location G states to a plan or remove location G states from the plan; we
+  would want the actions to be good but not great, to cause a slight upgrade
+  for the plan.  Maybe adding a second best tactic, or a third best tactic.
+- we can implement an environment model and have the planner determine the
+  correct bounds to adjust to the environment; this test seems far off at the
+  moment so we can make it more specific later
