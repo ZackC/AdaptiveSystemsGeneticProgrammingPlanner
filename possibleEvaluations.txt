@@ -37,6 +37,35 @@ Explore new possibilities with the technique:
   in some way to create new tactics; maybe combining tactics in some way that
   produce a greater result than they would individually
 
+Sepecific Evaluations:
 
+- Start by determine the plan boundaries for prism; we may not be able to get
+  an exact value since we may only be able to test in powers of two.  I had
+  already some of this experiment myself before starting my summer
+  internship.  If I remember correctly prism could only handle plans of 4
+  tactics long (15 tactics total).  It could handle plans of 5 tactics (25
+  tactics long).  But this should be confirmed again.
+- Then create 3-5 different optimization goals.  Limit the plans to four
+  tactics long.  Have Prism and the GA planner produce plans while being
+  timed. See the time it takes to produce the plan and how close the GA plan
+  is to being optimal.  We can measure optimal by the number of tactics it was
+  off by, the percent probability of reaching a non-optimal path, or the
+  different in score from the optimal plan to the current plan; we may want to
+  check all three methods. We may also want to determine what percentage of the
+  time the plans are optimal.
+- Have a script to check the optimal planning parameters; first start with
+	multiple different guess for the parameters and run a parameter
+	sweep; certain parameters are more interesting than other parameters,
+	for instance population size and generations both would be
+	interesting (can't think of an uninteresting parameter at the moment;
+	I think there were some in my code but maybe I should talk to Claire
+	or Cody about them.)
+- Then we should determine how much variance there is between different
+  planning situations for optimal parameters; meaning if we use a different
+  optimization function, or possibly different tactics, does that means the
+  parameters need to change significantly? Probably only need to choose a few
+  distinct situations initially and then decide if we should do more later.
+-(add some other experiments about starting with similar plans and adding
+tactics later)
 
 
