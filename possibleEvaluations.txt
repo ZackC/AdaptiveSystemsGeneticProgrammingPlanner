@@ -1,0 +1,42 @@
+Possible Evaluations:
+
+General Ideas:
+
+Compare planner to PRISM planner to demonstrate the benefits of stochastic
+search for planning:
+- show that we can handle larger plans - this one seems straight forward; we
+  should just measure how larger of plans each planner can create
+- show that we can produce plans faster without much optimailty loss;
+  generate plans with prism and the GA and measure how close we are to the
+  optimal solution for those plans
+
+Understand the GA:
+- Explore the convergence of objectives over generations
+- Explore different parameter settings to determine which are optimal
+- Look into cases of interesting emergent behavior from earlier experiments
+
+Explore new possibilities with the technique:
+- combine plans which focus on different goals - for example, can we combine
+  a plan that optimizes for security with a plan that optimizes for
+  performance without messing up the integrity of the plans past a reasonable
+  point; for example, maybe security is degraded slightly but it is still
+  vastly improved
+- upgrade plans after a system update; say that the plans are designed for a
+  certain configuration.  Can we update the plans when new possible tactics are
+  added to the system with less effort than completely regenerating the
+  plans? or can we at least determine in which cases effort will be saved?
+- if the quality requirements change (the fitness function), can we adjust the
+  plans in a way that we don't have to spend the whole cost of recreating each
+  plan from scratch?
+- can we handle new treats to the system?; similar to the system update but
+  when a new security vulnerability becomes known; or can we find new
+  security vulnerabilities before they are executed?
+- can we evolve tactics; start with the simple goal of optimizing certain
+  statements, such as determining the correct threshold to react to a situation;
+  eventually determine if it would be possible to experiment with the system
+  in some way to create new tactics; maybe combining tactics in some way that
+  produce a greater result than they would individually
+
+
+
+
