@@ -28,7 +28,7 @@ Explore new possibilities with the technique:
 - if the quality requirements change (the fitness function), can we adjust the
   plans in a way that we don't have to spend the whole cost of recreating each
   plan from scratch?
-- can we handle new treats to the system?; similar to the system update but
+- can we handle new threats to the system?; similar to the system update but
   when a new security vulnerability becomes known; or can we find new
   security vulnerabilities before they are executed?
 - can we evolve tactics; start with the simple goal of optimizing certain
@@ -37,7 +37,7 @@ Explore new possibilities with the technique:
   in some way to create new tactics; maybe combining tactics in some way that
   produce a greater result than they would individually
 
-Sepecific Evaluations:
+Specific Evaluations:
 
 - Start by determine the plan boundaries for prism; we may not be able to get
   an exact value since we may only be able to test in powers of two.  I had
