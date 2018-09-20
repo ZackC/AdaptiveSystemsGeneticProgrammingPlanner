@@ -1,7 +1,13 @@
 Branches:
 master - the original JGAP implementation for the position paper SASS: 
 	Self-Adaptation using Stochastic Search.  This implementation only 
-	supports single objective search.
+	supports single objective search. The code contains multiple hard-coded
+    paths that a new user of the system will get an error for and have to adjust.  Examples of the generaetedPrismFile.pm and generatedPropertyFile.pctl are in the src/main folder. There have been
+    some changes to PRISM since this tool was created, which cause the planner
+    to break on certain generated plans. New users of the tool will need
+    to fix the errors caused by these generated plans to run the tool to 
+    completion. The main function of the tool is located in src/main/runGA.java.  This project was created as an eclipse project, and can
+    be easily loaded and built as one (at the moment).
 convert_to_ecj - first implementation of the planner in ECJ for single objective
 	search.  This planner is bare bones, meaning that it doesn't have all 
 	the features of the JGAP implementation.
